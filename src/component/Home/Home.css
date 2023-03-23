@@ -1,0 +1,13 @@
+*{
+    padding: 0rem;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+

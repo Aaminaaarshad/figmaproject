@@ -1,0 +1,65 @@
+.section4{
+    width: 100;
+    margin-left: 1rem;
+    padding: 0rem 0rem 7rem 0rem;
+}
+.helos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    gap: 7rem;
+    position: absolute;
+    margin-top: 2rem;
+}
+.helos>p{
+    width: 30vw;
+    height: 12vh;
+    font-size:medium;
+    /* font-weight: 100; */
+}
+.twoLine{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 15vh;
+}
+.twoLine>h4{
+    font-weight: 100;
+}
+.backgroundd{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 19rem 7rem 0rem;
+    width: 70%;
+    height: 450px;
+    background: rgba(255, 222, 212, 0.7);
+    border-radius: 365px 0px 0px 0px;
+    margin-left: 7rem;
+}
+.fourBlocks{
+    width: 68vw;
+    padding: 4rem 1rem 1rem 1rem;
+}
+.blockchange{
+    width: 20vw;
+}
+.blockchange>img{
+    width: 16vw;
+}
+.block2{
+    display: flex;
+    width:16vw;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.block2>button{
+    background-color: white;
+    color: black;
+    width: 5rem;
+    height: 1rem;
+    border: 1px solid black;
+}
+
