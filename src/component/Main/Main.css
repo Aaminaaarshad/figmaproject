@@ -14,11 +14,13 @@ button{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
     justify-content: space-between;
     padding: 1rem 1rem;
 }
 .links{
     display: flex;
+    width: auto;
     gap: 1rem;
 }
 .home{
@@ -26,8 +28,7 @@ button{
 }
 .Name{
     display: flex;
-    width: 30%;
-    text-align: center;
+    width: auto;
 }
 .social{
     display: flex;
@@ -35,6 +36,20 @@ button{
 }
 @media only screen and (max-width: 950px) {
     .header{
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .links{
+    gap: 0.5rem;
+    width: 100%;
+    }
+    .Name{
+        width: 100%;
+    }
+    .social{
+        gap: 1rem;
         width: 100%;
     }
 }

@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <section className='section'>
 
-      {/* <div><Main/></div> */}
+      <div><Main/></div>
       <div><Section1/></div>
       <div><Section2/></div>
       <div><Section3/></div>
