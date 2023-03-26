@@ -19,3 +19,30 @@
     align-items: center;
     gap: 0.1rem;
 }
+@media only screen and (max-width: 950px) {
+    .section5{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .Heading{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 0%;
+        width: 100%;
+        padding: 0rem 0rem 0rem 1rem;
+    }
+    .thoughts{
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        /* padding: 2rem 9rem 2rem 9rem; */
+        gap: 1rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

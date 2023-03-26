@@ -6,11 +6,14 @@ import { IoIosArrowDropleft,IoIosArrowDropright } from 'react-icons/io'
 const Section2 = () => {
 return (
         <div className='section2'>
+
+
           <div className='param helo'>
             <h3>What We Do</h3>
             <h4>For Your Business</h4>
           </div>
-          <div className='fourBlocks four'>
+
+          <div className='fourBlock'>
             <div className='arrows'>
               <IoIosArrowDropleft/>
               <IoIosArrowDropright/>
@@ -35,8 +38,10 @@ return (
               <h5>Marketing</h5>
               <p>Lorem, ipsum dolor sit amet consectetur adipisic Vero, quos.</p>
             </div>
-            <div className='circle secondCircle'></div>
+            {/* <div className='circle secondCircle'></div> */}
           </div>
+
+
         </div>
 )
 }

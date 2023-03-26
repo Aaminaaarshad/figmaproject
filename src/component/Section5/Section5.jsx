@@ -7,7 +7,7 @@ return (
     <div className='Section5'>
 
 
-        <div className='param'>
+        <div className='param Heading'>
             <h3>Our Testimonials</h3>
             <h4>What Our Clients Are Saying</h4>
         </div>
